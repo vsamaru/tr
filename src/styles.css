@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: lime;
+  font-size: 170%;
+  font-family: monospace;
+}
+button {
+  color: lime;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:focus,
+button:hover,
+button.selected {
+  color: black;
+  background-color: lime;
+}
+hr {
+  border: none;
+  background-color: lime;
+  height: 1px;
+}
+h1 {
+ 
+  margin: 0;
+}
+.div {
+  overflow-wrap: normal;  /* не поддерживает IE, Firefox; является копией word-wrap */ 
+  word-wrap: normal;
+  word-break: normal;  /* не поддерживает Opera12.14, значение keep-all не поддерживается IE, Chrome */ 
+  line-break: auto;  /* нет поддержки для русского языка */ 
+  hyphens: manual;  /* значение auto не поддерживается Chrome */ 
+  width: 50%;
+}
